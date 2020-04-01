@@ -8,14 +8,17 @@
  Use either main.py or main.ipynb to start.
  
  ## Alerter function usage
- '''python
+ 
+```python
  alerter('webpage', 'target price')
- '''
+ ```
+ 
  ## Example
- '''
- # When Facebook drops below 160.62, the alerter will beep once.
+```
+
  alerter('https://finance.yahoo.com/quote/FB?p=FB', '160.62')
- '''
+```
+When Facebook drops below 160.62, the alerter will beep once.
 
  
  Lower your volume.
