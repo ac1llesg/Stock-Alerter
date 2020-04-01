@@ -10,7 +10,7 @@
  
  ## Requirements
  
- requires playsound, beautiful soup and requests.
+Requires playsound, beautiful soup and requests.
  
  
  ## Alerter function usage 
@@ -21,7 +21,8 @@
  
  ## Example
 ```
-alerter('https://finance.yahoo.com/quote/FB?p=FB', '160.62') # When Facebook drops below 160.62, the alerter will beep once.
+alerter('https://finance.yahoo.com/quote/FB?p=FB', '160.62') 
+# When Facebook drops below 160.62, the alerter will beep once.
 ```
 Lower your volume.
 
